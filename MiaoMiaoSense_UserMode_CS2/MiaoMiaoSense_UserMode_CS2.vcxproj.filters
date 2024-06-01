@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Features">
+      <UniqueIdentifier>{bbf6addb-caa1-4971-a04f-626ad744784a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Features">
+      <UniqueIdentifier>{8bc1c55b-084b-496d-9fc1-bf94141f2fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Offsets">
+      <UniqueIdentifier>{2490f805-5438-4734-bd61-32c92d64ea51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Utils">
+      <UniqueIdentifier>{a63333f5-3940-40ac-94ae-7a5112655611}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MiaoMiaoSense.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BHop.cpp">
+      <Filter>源文件\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>源文件\Features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Driver.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="buttons.hpp">
+      <Filter>头文件\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="client.dll.hpp">
+      <Filter>头文件\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>头文件\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MemCat.hpp">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MiaoMiaoSense.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Features.hpp">
+      <Filter>头文件\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
